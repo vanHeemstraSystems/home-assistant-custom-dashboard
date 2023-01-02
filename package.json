@@ -7,7 +7,7 @@
     "since 2019"
   ],
   "scripts": {
-    "start": "webpack serve --watch-content-base",
+    "start": "webpack serve",
     "build": "cross-env NODE_ENV=production webpack"
   },
   "dependencies": {
