@@ -55,7 +55,11 @@ module.exports = {
     publicPath: `${publicPath}${isProd ? '/' : ''}` ,
   },
   devServer: {
-    contentBase: buildPath,
+    // DEPRECTAED contentBase: buildPath,
+    // NOW:
+    static: {
+      directory: buildPath,
+    },
     allowedHosts: ['all'],
     host: '0.0.0.0',
     port: 8080,
