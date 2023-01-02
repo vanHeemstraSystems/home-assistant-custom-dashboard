@@ -4,6 +4,18 @@
 
 Based on "Getting Started" at https://github.com/shannonhochkins/ha-dashboard
 
+Install the software from this repository on a system that has NodeJS installed, for generating the build files necessary for copying into Home Assistant later.
+
+```
+npm run install
+```
+
+Run a development server
+
+```
+npm run start
+```
+
 Add the following to your ```configuration.yaml``` file in Home Assistant:
 
 ```
@@ -24,9 +36,9 @@ Restart Home Assistant.
 
 Let's assume you've created a directory under the www folder called ```react-panel```. Also add this to the package.json ```panelServingUrl```
 
-To deploy it, run ```npm run build```.
+To deploy it, run ```npm run build``` on the system that is intended for the generation of the build files (only).
 
-This will generate a new build of the panel in the ```dist``` folder. Copy the contents of this folder and place it in ```<home assistant config>/www/react-panel```.
+This will generate a new build of the panel in the ```dist``` folder on that system. Copy the contents of this folder and place it in ```<home assistant config>/www/react-panel```.
 
 This will make it available from Home Assistant via the url ```/local/react-panel/main.js```.
 
