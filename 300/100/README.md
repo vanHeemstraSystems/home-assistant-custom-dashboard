@@ -10,6 +10,12 @@ Install the software from this repository on a system that has NodeJS installed,
 npm install
 ```
 
+Build the dist folder and its content
+
+```
+npm run build
+```
+
 Run a development server
 
 ```
