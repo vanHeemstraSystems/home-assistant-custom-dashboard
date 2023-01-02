@@ -1,7 +1,7 @@
 # 300 - Building Our Application
 
 ## 100 - Project Setup
-See README.md
+See [README.md](./100/README.md)
 
 ## 200 - Docker for Development Environment
 See README.md
