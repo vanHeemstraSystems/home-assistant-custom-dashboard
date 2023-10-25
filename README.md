@@ -3,6 +3,8 @@ home-assistant-custom-dashboard
 
 Based on "Home Assistant Dashboard" at https://github.com/shannonhochkins/ha-dashboard
 
+**NOTE**: The above repository has moved and can now be found as "ha-component-kit" at https://github.com/shannonhochkins/ha-component-kit and accompanying documentation at https://shannonhochkins.github.io/ha-component-kit/?path=/story/introduction-overview--default
+
 ## 100 - Introduction
 
 See [README.md](./100/README.md)
